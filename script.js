@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => {
                 preloader.style.display = 'none';
             }, 500);
-        }, 3); // Show preloader for at least 3 seconds
+        }, 3000); // Show preloader for at least 3 seconds
     });
 
     // Mobile navigation
