@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
             preloader.classList.add('hidden');
             setTimeout(() => {
                 preloader.style.display = 'none';
-            }, 5);
-        }, 3); // Show preloader for at least 0.1 seconds
+            }, 500);
+        }, 3000); // Show preloader for at least 0.1 seconds
     });
 
     // Mobile navigation
